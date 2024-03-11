@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title> Home | Through my Lens</title>
+<!-- TemplateEndEditable -->
+	<link href="/MauricioV/project/images/favicon.png" rel="icon" type="image/x-icon" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+	<link href="../css/main.css" rel="stylesheet" type="text/css">
+	
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div class="wrapper">
+  <header class=""> <a href="../index.html"><img src="../images/minimalist_logo.png" width="150" height="150" alt=""/> </a>
+    <nav class="links"> <a href="../portfolio.html">Portfolio</a> <a href="../projects.html">Projects</a> <a href="../services.html">Services</a> <a href="../blog.html">Blog</a> <a href="../contact.html">Contact</a> </nav>
+	  
+  </header>
+	<!-- TemplateBeginEditable name="content" -->
+
+  <main class="portfolio">
+    <h1>Portfolio</h1>
+    <a href="../portfolio.html">See Gallery</a>
+    <p></p>
+  </main>
+  <section class="projects">
+    <h1>Projects</h1>
+    <a href="../projects.html">See Photoshoots</a>
+    <p></p>
+  </section>
+  <section class="services">
+    <h1>Services</h1>
+    <a href="../services.html">See services</a>
+    <p></p>
+  </section>
+  <section class="Blog">
+    <h1>Blog</h1>
+    <a href="../blog.html">See Articles</a>
+    <p></p>
+  </section>
+<!-- TemplateEndEditable -->
+	</div>
+<footer class="footer">
+	<section class="contact link"><a href="../contact.html"><h1>Contact</h1></a>
+  </section>
+  <div class="footer-content">
+    <p>&copy; Mauricio Veliz</p>
+    <p id="last-modified">Last Updated: <span id="last-updated"><!-- #BeginDate format:Am1 -->December 6, 2023<!-- #EndDate --></span></p>
+    <p>Images captured by: Mauricio Veliz</p>
+	  <p class="logos">
+		  
+<a href="https://www.instagram.com/">
+	<img src="../images/SocialMediaLogos/glyph-logo_May2016-150x150.png"  height="100%" alt="insta"/></a>	
+		  
+		  
+<a href="https://www.snapchat.com/">
+	<img src="../images/SocialMediaLogos/snap-ghost-yellow-310x309.png"  height="100%" alt="snap"/></a>
+	
+<a href="https://web.whatsapp.com/">
+	<img src="../images/SocialMediaLogos/WhatsApp_Logo_2-150x150.png"  height="100%" alt="Whatsapp"/></a>
+    
+<a href="https://www.linkedin.com/feed/">  
+	<img src="../images/SocialMediaLogos/In-Black-54px-R.png"  height="100%" alt="Linkdn"/></a>
+</p>
+  </div>	
+</footer>
+	
+</body>
+</html>

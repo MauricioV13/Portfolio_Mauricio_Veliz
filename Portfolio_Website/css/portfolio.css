@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+.galleries{
+	display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-around; 
+    padding: 1px; 
+}
+
+
+
+
+.portfolio,
+.projects,
+.services,
+.Blog {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.portfolio h1,
+.projects h1,
+.services h1,
+.Blog h1
+ {
+  text-decoration: none;
+  color: black;
+  font-size: 36px;
+  text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s, text-shadow 0.2s;
+}
+
+
+
+.portfolio {
+background: white;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+
+.projects {
+	background: white;
+
+}
+
+.services {
+background: white;
+}
+
+.Blog {
+background: white;
+}
+

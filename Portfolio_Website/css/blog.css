@@ -1,0 +1,8 @@
+@charset "utf-8";
+body {
+  padding: 40px; /* Padding for the whole page */
+}
+
+h3 {
+  text-align: center; /* Center-align the title */
+}

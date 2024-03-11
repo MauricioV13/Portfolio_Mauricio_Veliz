@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+header {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    padding: 1% 0; 
+    background-size: cover;
+    background-image: url(../images/MainBackground.jpg);    
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+main {
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    text-align: center;
+	  height: 500px;
+	width: 100%;
+	padding-top: 1%;
+	
+	
+}
+
+
+.portfolio,
+.projects,
+.services,
+.Blog {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+
+.portfolio h1,
+.projects h1,
+.services h1,
+.Blog h1,
+.portfolio a,
+.projects a,
+.services a,
+.Blog a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 36px;
+  text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s, text-shadow 0.2s;
+}
+
+.portfolio a:hover,
+.projects a:hover,
+.services a:hover,
+.Blog a:hover {
+  color: #FFFFFF;
+  text-shadow: 4px 4px 16px rgba(0, 0, 0, 0.7); 
+  transform: scale(1.1); 
+}
+
+.portfolio {
+    background-image: url(../images/ace.jpg);
+}
+
+.projects {
+    background-image: url(../images/Arizona.jpg);
+}
+
+.services {
+    background-image: url(../images/mountDoug.jpg);
+}
+
+.Blog {
+    background-image: url(../images/waterfall.jpg);
+}
+
+
+@media screen and (max-width: 768px) {
+ 
+    nav a {
+		color: white;
+    }
+}
